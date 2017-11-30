@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Selenium Easy">
+<listeners>
+    <listener class-name="testngListener.testngListenerClass" />
+  </listeners>
+
+    <test name="SimpleFormDemo_SingleInput">
+    <classes>
+        <class name="simpleFormDemo.TC001_SimpleFormDemo_SingleInput"/>
+        <class name="simpleFormDemo.TC002_simpleFormDemo_DoubleInput"/>
+    </classes>
+  </test> <!-- Test -->
+      <test name="checkBoxDemo_single">
+    <classes>
+      	<class name="checkBoxDemo.TC003_checkBoxDemo_single"/>
+      	<class name="checkBoxDemo.TC004_checkBoxDemo_multiBox"/>
+    </classes>
+     </test> <!-- Test -->
+      <test name="radioButtonDemo">
+    <classes>
+       	<class name="radioButtonDemo.TC005_radioButtonDemo"/>
+       	 <class name="radioButtonDemo.TC006_radioButtonDemo"/>
+    </classes>
+  </test> <!-- Test -->
+      <test name="selectDropDownListFirstManu">
+    <classes>
+      	<class name="selectDropDownList.TC007_selectDropDownListFirstManu"/>
+    </classes>
+  </test> <!-- Test -->
+   <test name="inputFromWithVelidation">
+    <classes>
+      	<class name="inputFormWithVelidation.TC008_inputFormWithVelidation"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="inputFormWithVelidation_Dynamic">
+    <classes>
+      	<class name="inputFormWithVelidation.TC009_inputFormWithVelidation_Dynamic"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
