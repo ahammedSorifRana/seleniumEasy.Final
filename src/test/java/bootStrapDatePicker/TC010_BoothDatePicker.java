@@ -1,4 +1,4 @@
-package test.seleniumEasy.DemoProject;
+package bootStrapDatePicker;
 
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -6,18 +6,16 @@ import org.testng.annotations.Test;
 
 import Test.test.seleniumEasy.BaseTest.TestBase;
 
- public abstract class SimpleDemoProject extends TestBase {
-	
-	
-	
-	
+public class TC010_BoothDatePicker extends TestBase {
+
 	@BeforeMethod
 	public void setUp() {
 		inIt();
 		}
 	@Test
-	public void methodName() {
-		
+	public void BoothDatePicker() {
+		DateExample DE = new  DateExample(Driver);
+		DE.DataExampleFinal();
 	};
 	
 	@AfterMethod
@@ -26,7 +24,5 @@ import Test.test.seleniumEasy.BaseTest.TestBase;
 		}
 
 	
-	
-	
-	
+
 }

@@ -1,18 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Selenium Easy]">
-  <listeners>
-    <listener class-name="testngListener.testngListenerClass"/>
-  </listeners>
-  <test name="radioButtonDemo(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="radioButtonDemo.TC006_radioButtonDemo">
+      <class name="bootStrapDatePicker.TC011_DateRangeExample">
         <methods>
-          <include name="radioButtonDemo"/>
-          <include name="endTest"/>
           <include name="setUp"/>
+          <include name="methodName"/>
+          <include name="endTest"/>
         </methods>
-      </class> <!-- radioButtonDemo.TC006_radioButtonDemo -->
+      </class> <!-- bootStrapDatePicker.TC011_DateRangeExample -->
     </classes>
-  </test> <!-- radioButtonDemo(failed) -->
-</suite> <!-- Failed suite [Selenium Easy] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
